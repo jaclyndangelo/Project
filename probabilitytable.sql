@@ -1,5 +1,5 @@
 CREATE TABLE probability(
-	student_id int REFRENCES students, 
+	student_id int REFERENCES students, 
 	assignment_one int,
 	assignment_two int,
 	assignment_three int,
