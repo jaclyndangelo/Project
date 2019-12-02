@@ -5,5 +5,5 @@ CREATE TABLE students(
 	address varchar,
 	date_of_birth date, 
 	social_security int,
-	sport_team_name varchar
+	sport_team_name varchar REFERENCES athletics
 );
