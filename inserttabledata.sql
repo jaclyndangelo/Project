@@ -1,14 +1,14 @@
 INSERT INTO students
-VALUES (0001, 'Hans', 'Deutsch', '6368 Limeport Pike', '1997-11-07', '123-45-6789', 'Men's Lacrosse'), 
-(0002, 'Braxton', 'Brent', NULL, '1997-12-22', '234-56-7890', 'Men's Lacrosse'), 
-(0003, 'Adam', 'Booz', '342 Souderton Lane', '345-67-8901', 'Men's Lacrosse'), 
-(0004, 'Logan', 'Barlock', '645 Parkland Ave', '142-12-2545', 'Men's Lacrosse'), 
-(0005, 'Dom', 'Johnson', '327 Pitcher Park', '176-34-4758', 'Baseball'), 
-(0006, 'Nikki', 'Morollo', '4545 Green Way', '173-17-5362', 'Men's Golf'),  
-(0007, 'Jaclyn', 'D'Angelo', '365 West Drive', '645-87-3746', 'Women's Golf'), 
-(0008, 'Sarah', 'White', '4236 Ball Street', '475-23-5757', 'Women's Basketball'),
-(0009, 'Elainah', 'Boyles', '2545 Runners Lane', '237-45-8762', 'Women's Track and Field'), 
-(0010, 'Grace', 'Gonzalas', '1234 Spring Street', 122-22-1234', 'Softball')
+VALUES (0001, 'Hans', 'Deutsch', '6368 Limeport Pike', '1997-11-07', '123-45-6789', 2345, 321), 
+(0002, 'Braxton', 'Brent', NULL, '1997-12-22', '234-56-7890', 2345, 321), 
+(0003, 'Adam', 'Booz', '342 Souderton Lane', '345-67-8901',  2345, 321), 
+(0004, 'Logan', 'Barlock', '645 Parkland Ave', '142-12-2545', 2345, 321), 
+(0005, 'Dom', 'Johnson', '327 Pitcher Park', '176-34-4758', 2351, 321), 
+(0006, 'Nikki', 'Morollo', '4545 Green Way', '173-17-5362', 2349, 322),  
+(0007, 'Jaclyn', 'D'Angelo', '365 West Drive', '645-87-3746', 2350, 323), 
+(0008, 'Sarah', 'White', '4236 Ball Street', '475-23-5757', 2348, 324),
+(0009, 'Elainah', 'Boyles', '2545 Runners Lane', '237-45-8762', 2354, 325), 
+(0010, 'Grace', 'Gonzalas', '1234 Spring Street', 122-22-1234', 2352, 326)
 ;
 
 INSERT INTO athletics
@@ -34,7 +34,7 @@ VALUES (321, 'Math', 11, 55, 2, 3.6),
 (336, 'Bible', 15, 50, 5, 3.6), 
 (337, 'Social Work', 13, 60, 2, 3.6), 
 (338, 'Athletic Training', 16, 80, 2, 3.5), 
-(339, 'Chemistry', 12, 35, 1, 3.7
+(339, 'Chemistry', 12, 35, 1, 3.7)
 ;
 
 INSERT INTO math_major
