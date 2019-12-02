@@ -1,5 +1,5 @@
 CREATE TABLE majors(
-	major_id int,
+	major_id int UNIQUE PRIMARY KEY,
 	major_name varchar,
 	number_of_classes int,
 	number_of_students int,
