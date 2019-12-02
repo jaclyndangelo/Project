@@ -1,5 +1,5 @@
 CREATE TABLE athletics(
-	team_id int,
+	team_id int UNIQUE PRIMARY KEY,
 	sport_name varchar,
 	gender varchar,
 	season varchar,
