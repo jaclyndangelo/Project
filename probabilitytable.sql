@@ -1,5 +1,5 @@
 CREATE TABLE probability(
-	student_name varchar, 
+	student_id int, 
 	assignment_one int,
 	assignment_two int,
 	assignment_three int,
