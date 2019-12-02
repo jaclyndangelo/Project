@@ -5,6 +5,4 @@ CREATE TABLE probability(
 	assignment_three int,
 	test_one int,
 	test_two int,
-	final int,
-	class_grade varchar
 );
