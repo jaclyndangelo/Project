@@ -6,4 +6,5 @@ CREATE TABLE students(
 	date_of_birth date, 
 	social_security int,
 	sport_team_name varchar REFERENCES athletics
+	major_name varchar REFERENCES majors
 );
