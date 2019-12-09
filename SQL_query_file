@@ -1,0 +1,21 @@
+--Three way join of student and athletics table, with a condition of have a math major.
+SELECT s.student_id, s.first_name, s.last_name, a.sport_name
+FROM students AS s
+JOIN majors AS m
+ON m.major_id = s.major_id
+JOIN athletics As a
+ON a.team_id = s.sport_team_id
+WHERE m.major_name = 'Math'
+
+--Averaged each students tests and assignemnts and joined probability and students table to include their name.
+SELECT s.first_name, s.last_name, s.student_id, round((avg(p.test_one + p.test_two)/2), 2) as test_avg, round((avg(p.assignment_one + p.assignment_two + p.assignment_three)/3), 2) as assignment_avg
+FROM probability AS p
+JOIN students AS s
+ON p.student_id = s.student_id
+GROUP BY s.student_id
+ 
+--To find the easiest math course offered in the spring we sorted by class average
+SELECT math_major.class_name, math_major.average_grade
+FROM math_major
+WHERE semester = 'Spring'
+ORDER BY math_major.average_grade DESC
