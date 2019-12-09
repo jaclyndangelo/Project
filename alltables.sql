@@ -26,7 +26,7 @@ CREATE TABLE math_major(
 	location varchar, 
 	semester varchar, 
 	number_of_students int,
-	average_grade int
+	average_grade numeric
 );
 
 
